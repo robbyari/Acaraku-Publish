@@ -29,11 +29,25 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+            buildConfigField "String", "TOKEN", "\"<TOKEN_WEBHOOK>\""
+            buildConfigField "String", "WEB_CLIENT_ID", "\"<WEB_CLIENT_ID_FIREBASE>\""
+            buildConfigField "String", "SHA_256", "\"<SHA_256_WEBHOOK>\"\""
+            buildConfigField "String", "SHA_256_Optional", "\"<SHA_256_Optional_WEBHOOK>\""
+            buildConfigField "String", "MIDTRANS_SERVER_KEY", "\"<MIDTRANS_SERVER_KEY\">\""
+            buildConfigField "String", "MIDTRANS_CLIENT_KEY", "\"<MIDTRANS_CLIENT_KEY>\""
         }
 
         debug {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+            buildConfigField "String", "TOKEN", "\"<TOKEN_WEBHOOK>\""
+            buildConfigField "String", "WEB_CLIENT_ID", "\"<WEB_CLIENT_ID_FIREBASE>\""
+            buildConfigField "String", "SHA_256", "\"<SHA_256_WEBHOOK>\"\""
+            buildConfigField "String", "SHA_256_Optional", "\"<SHA_256_Optional_WEBHOOK>\""
+            buildConfigField "String", "MIDTRANS_SERVER_KEY", "\"<MIDTRANS_SERVER_KEY\">\""
+            buildConfigField "String", "MIDTRANS_CLIENT_KEY", "\"<MIDTRANS_CLIENT_KEY>\""
         }
     }
     compileOptions {
