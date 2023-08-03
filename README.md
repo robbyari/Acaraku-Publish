@@ -1,4 +1,5 @@
-# Acaraku-Publish
+# Acaraku-Publish [![Play Store](https://img.shields.io/static/v1?label=&message=Acaraku&color=000605&logo=GooglePlay&logoColor=FFFFFF&labelColor=000605)](https://play.google.com/store/apps/details?id=com.robbyari.acaraku)
+
 ![Kotlin](https://img.shields.io/static/v1?label=&message=Kotlin&color=3776AB&logo=Kotlin&logoColor=FFFFFF) ![Jetpack Compose](https://img.shields.io/static/v1?label=&message=JetpackCompose&color=4EAA25&logo=jetpackcompose&logoColor=FFFFFF) ![Firebase](https://img.shields.io/static/v1?label=&message=Firebase&color=FFA116&logo=firebase&logoColor=FFFFFF) ![MVVM](https://img.shields.io/static/v1?label=&message=MVVM&color=FF5C83&logo=mvvm&logoColor=FFFFFF) ![Midtrans](https://img.shields.io/static/v1?label=&message=PaymentGateway&color=092E20&logo=midtrans&logoColor=FFFFFF) ![Dependency Injection](https://img.shields.io/static/v1?label=&message=DependencyInjection&color=009688&logo=midtrans&logoColor=FFFFFF) ![Hilt](https://img.shields.io/static/v1?label=&message=Hilt&color=FF5C83&logo=hilt&logoColor=FFFFFF)
 <br>
 
